@@ -1,0 +1,52 @@
+/* ContactForm.css */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.contact-form .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contact-form .full-width {
+  width: 100%;
+}
+
+.contact-form input, .contact-form textarea {
+  flex: 1;
+  margin-right: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form .large-input {
+  flex: 2;
+}
+
+.contact-form .full-width-input {
+  width: 100%;
+  margin-right: 0;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.contact-form .large-input {
+  flex: 1.5;
+  padding-right: 115px;
+}

@@ -1,0 +1,13 @@
+.rii__toolbar {
+    top: auto !important;
+    bottom: 0 !important;
+  }
+  
+  .rii__outer {
+    align-items: flex-start;
+  }
+  
+  .rii__nav--close {
+    top: 0 !important;
+  }
+  
