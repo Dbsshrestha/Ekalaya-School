@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
-import ContactForm from '../pages/Contact/Contact';
 import GoogleMap from './Contact/GoogleMap';
 import { FaMessage } from "react-icons/fa6";
 import { MdAddCall } from "react-icons/md";
